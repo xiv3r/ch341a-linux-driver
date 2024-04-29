@@ -5,7 +5,7 @@
 # Install Dependencies:
 
     sudo -i
-    sudo apt updated
+    sudo apt update
     sudo apt install bc build-essential
     sudo apt install linux-image-$(uname -r|sed 's,[^-]*-[^-]*-,,')
     sudo apt install linux-headers-$(uname -r|sed 's,[^-]*-[^-]*-,,')
