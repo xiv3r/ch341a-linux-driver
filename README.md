@@ -20,11 +20,11 @@ Open root 'Terminal'
     
     sudo -i
     git clone https://github.com/xiv3r/ch341a-linux-driver.git
-    cd ch341a-linux-driver
+    cd ch341a-linux-driver/CH341A-SER
 
 # Install drivers:
   
-    sudo make ; sudo make load ; sudo make install
+    make ; sudo make load ; sudo make install
 
 
 # Uninstall driver:
